@@ -1,16 +1,13 @@
 {
-  "name": "react-boilerplate",
-  "version": "3.7.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
-  },
+  "name": "twitter-comprehend",
+  "version": "1.0",
+  "description": "desc",
+  "repository": "https://github.com/ScenicFlighter/twitter-comprehend.git",
   "engines": {
     "npm": ">=5",
     "node": ">=8.10.0"
   },
-  "author": "Max Stoiber",
+  "author": "ScenicFlighter",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
@@ -162,5 +159,6 @@
     "webpack-hot-middleware": "2.24.3 ",
     "webpack-pwa-manifest": "3.7.1",
     "whatwg-fetch": "3.0.0"
-  }
+  },
+  "main": "index.js"
 }
